@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity ysa is
+    Port ( pwm_out  : out  STD_LOGIC; --PID output 
+           CLK1     : in STD_LOGIC
+			  pın1     : in STD_LOGIC    -- Deney Seti üzerinden Encoder A pini 
+			  pın2     : in STD_LOGIC	  -- Deney Seti üzerinden Encoder B pini
+			  );
+end ysa;
